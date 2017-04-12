@@ -11,7 +11,7 @@ int readValues() {
 	sleep1(1, 0);
 	adc_reading = read_analog(2);
 	printf("%d\n", adc_reading);
-	sleep1(1, 0);
+	sleep1(100, 0);
 	adc_reading = read_analog(4);
 	printf("%d\n", adc_reading);
 	sleep1(0, 500000);

@@ -116,7 +116,7 @@ int moveForward(){
 	sleep1(3, 0);
 	stop(1);
 	stop(2);
-return 0; }*/
+return 0; }
 
 // Turns the robot left
 int turn_left(int duration) {
